@@ -18,14 +18,18 @@ int main(){
     }
     else if (n1 < n2)
     {
-        //conta
+        
         total = n1 + n2;
         printf("%d e o maior numero e a soma dos dois numeros e %d",n2,total);
     }
-    else
+    else if (n1 = n2)
     {
-        printf("Erro");
+        total = n1 + n2;
+        printf("Ambos são iguais %d",total);
+        
     }
+    
+ 
     
     return 0;
 }

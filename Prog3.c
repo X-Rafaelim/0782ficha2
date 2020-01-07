@@ -21,7 +21,7 @@ int main(){
         printf("Introduza a quantidade \n");
         scanf(" %f", &conver);
         //conversão
-        conta = conver * UsdDollar;
+        conta = conver / UsdDollar;
         printf("Introduziste %f euros e converteu para %f USD Dollar \n", conver,conta);
     }
     else if (menu == 2)
@@ -29,7 +29,7 @@ int main(){
         printf("Introduza a quantidade \n");
         scanf(" %f", &conver);
         //conversão
-        conta = conver / UsdDollar;
+        conta = conver * UsdDollar;
         printf("Introduziste %f USD Dollar e converteu para %f euros \n", conver,conta);
     }
     else if (menu == 3)
@@ -37,7 +37,7 @@ int main(){
         printf("Introduza a quantidade \n");
         scanf(" %f", &conver);
         //conversão
-        conta = conver * euro;
+        conta = conver / euro;
         printf("Introduziste %f euro e converteu para %f cad \n", conver,conta);
 
 
@@ -47,7 +47,7 @@ int main(){
         printf("Introduza a quantidade \n");
         scanf(" %f", &conver);
         //conversão
-        conta = conver / euro;
+        conta = conver * euro;
         printf("Introduziste %f Cad e converteu para %f euro \n", conver,conta);
     }
     else
